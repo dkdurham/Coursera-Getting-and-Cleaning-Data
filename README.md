@@ -35,9 +35,9 @@ For each record it is provided:
 
 The script produces the following files:
 =========================================
-1. 'Means_and_StandardDevs.csv' are the mean and standard deviation variables for each observation. An observation is an activity per subject.
+1. 'Means_and_StandardDevs.txt' are the mean and standard deviation variables for each observation. An observation is an activity per subject.
 
-2. 'Means_per_Subj_&_Activity.csv' is a truncated table of the mean of each variable per subject and activity.
+2. 'Means_per_Subj_&_Activity.txt' is a truncated table of the mean of each variable per subject and activity.
 
 
 The script requires the following files from 'UCI HAR Dataset':

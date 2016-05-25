@@ -26,13 +26,13 @@ LAYING
 
 This script produces two files from the data:
 
-- Mean_StandardDev.csv are the mean and standard deviation variables for each observation. An observation is an activity per subject.
+- Mean_StandardDev.txt are the mean and standard deviation variables for each observation. An observation is an activity per subject.
 
 The structure of the data:
 Total observations: 10299
 Variables: 89
 
-- Means_per_Activity_Subject.csv is a truncated table of the mean of each variable per subject and activity.
+- Means_per_Activity_Subject.txt is a truncated table of the mean of each variable per subject and activity.
 
 The structure of the data:
 Total observations: 180

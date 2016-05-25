@@ -43,14 +43,14 @@ run_analysis <- function(filepath){
      
      # filter columns by mean OR standard deviation, save the new dataframe to parent folder
      XY_mean_std <- XY_total %>% select(activity, subject, contains("mean"), contains("std"))
-     setwd(filepath)
-     write.csv(XY_mean_std, "Means_and_StandardDevs.csv", row.names = FALSE)
+     setwd("..")
+     write.table(XY_mean_std, "Means_and_StandardDevs.txt", row.names = FALSE)
      print("saving 'Means_and_StandardDevs.csv' to folder...")
      # average of each variable for each activity and each subject, save the new dataframe to parent folder
      subset_means <- XY_mean_std %>% 
          group_by(activity, subject) %>% 
          summarise_each(funs(mean))
-     write.csv(subset_means, "Means_per_Subj_&_Activity.csv", row.names = FALSE)
+     write.table(subset_means, "Means_per_Subj_&_Activity.txt", row.names = FALSE)
      print("saving 'Means_per_Subj_&_Activity.csv' to folder...")
      print("Done!")
 }
