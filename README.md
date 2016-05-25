@@ -4,16 +4,11 @@ files for final assignment
 ==================================================================
 Human Activity Recognition Using Smartphones Data subset
 Version 1.0
+
 ==================================================================
 Denver Durham
-www.github.com/ddurham
-Derived from Human Activity Recognition Using Smartphones Dataset:
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
+www.github.com/dkdurham
+
 ==================================================================
 
 The file run_analysis.R is a single argument function that takes a file path as the argument. Filepath must be the path to the 'UCI HAR Dataset' folder.
